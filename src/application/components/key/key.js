@@ -1,10 +1,10 @@
 import './key.css';
 
 export default class Key {
-  constructor(keyCode, keyValue, type) {
+  constructor(keyCode, keyValue, charType) {
     this.keyCode = keyCode;
     this.keyValue = keyValue;
-    this.type = type;
+    this.charType = charType;
     this.setSpecificStyles = this.setSpecificStyles.bind(this);
   }
 
@@ -16,6 +16,7 @@ export default class Key {
     if (classes !== null) keyElement.classList.add(classes);
     keyElement.textContent = this.keyValue;
     keyElement.keyCode = this.keyCode;
+    keyElement.charType = this.charType;
     return keyElement;
   }
 
@@ -32,17 +33,6 @@ export default class Key {
         return 'medium';
       case 'Space':
         return 'space';
-        // case 'ControlLeft':
-        // case 'ControlRight':
-
-        //   break;
-        // case 'MetaLeft':
-
-        //   break;
-        // case 'AltLeft':
-        // case 'AltRight':
-
-      //   break;
       default:
         return null;
     }

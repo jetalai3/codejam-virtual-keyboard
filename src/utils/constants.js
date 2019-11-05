@@ -320,8 +320,8 @@ const KEY_LAYOUTS = {
     },
     {
       keyCode: 'ArrowUp',
-      value: '',
-      shiftValue: '',
+      value: '\u2191',
+      shiftValue: '\u2191',
       type: 'service',
     },
     {
@@ -362,20 +362,20 @@ const KEY_LAYOUTS = {
     },
     {
       keyCode: 'ArrowLeft',
-      value: '',
-      shiftValue: '',
+      value: '\u2190',
+      shiftValue: '\u2190',
       type: 'service',
     },
     {
       keyCode: 'ArrowDown',
-      value: '',
-      shiftValue: '',
+      value: '\u2193',
+      shiftValue: '\u2193',
       type: 'service',
     },
     {
       keyCode: 'ArrowRight',
-      value: '',
-      shiftValue: '',
+      value: '\u2192',
+      shiftValue: '\u2192',
       type: 'service',
     },
     {
@@ -706,8 +706,8 @@ const KEY_LAYOUTS = {
     },
     {
       keyCode: 'ArrowUp',
-      value: '',
-      shiftValue: '',
+      value: '\u2191',
+      shiftValue: '\u2191',
       type: 'service',
     },
     {
@@ -748,20 +748,20 @@ const KEY_LAYOUTS = {
     },
     {
       keyCode: 'ArrowLeft',
-      value: '',
-      shiftValue: '',
+      value: '\u2190',
+      shiftValue: '\u2190',
       type: 'service',
     },
     {
       keyCode: 'ArrowDown',
-      value: '',
-      shiftValue: '',
+      value: '\u2193',
+      shiftValue: '\u2193',
       type: 'service',
     },
     {
       keyCode: 'ArrowRight',
-      value: '',
-      shiftValue: '',
+      value: '\u2192',
+      shiftValue: '\u2192',
       type: 'service',
     },
     {
