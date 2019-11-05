@@ -1,5 +1,1 @@
-.idea
-node_modules
-*.bundle.js
-*.log
-dist
+node_modules/
