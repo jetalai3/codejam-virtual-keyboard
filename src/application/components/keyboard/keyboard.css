@@ -1,0 +1,16 @@
+#keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 80%;
+    min-width: 700px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#textarea {
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    display: block;
+}
